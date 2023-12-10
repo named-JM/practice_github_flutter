@@ -1,6 +1,7 @@
 # textingcg
 
-A new Flutter project.
+this is my very first time to push a project to github! 
+this flutter project is a color game but too many bug to fix
 
 ## Getting Started
 
