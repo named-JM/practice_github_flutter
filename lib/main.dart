@@ -440,14 +440,14 @@ class _ColorMatchingGameState extends State<ColorMatchingGame> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Insufficient Coins'),
-          content: Text('You do not have enough coins to bet that amount.'),
+          title: Text('NOT ENOUGH COINS'),
+          content: Text('WALA KA NG COINS PUNYETA KA! '),
           actions: [
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text('OK'),
+              child: Text('HALOHALO YES OKAY!'),
             ),
           ],
         );
